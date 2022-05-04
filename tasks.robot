@@ -1,5 +1,6 @@
 *** Settings ***
-Documentation     Template robot main suite.
+Documentation       Template robot main suite.
+
 
 *** Tasks ***
 Minimal task
