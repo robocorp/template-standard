@@ -1,16 +1,15 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml
+
 channels:
-  # Define conda channels here.
   - conda-forge
 
 dependencies:
-  # Define conda packages here.
-  # If available, always prefer the conda version of a package.
-  # Installation will be faster and more efficient.
-  # https://anaconda.org/search
+  # Define conda-forge packages here -> https://anaconda.org/search
+  # When available, prefer the conda-forge version of a packages over pip.
+  # Installations will be faster and more efficient.
   - python=3.9.13
-
   - pip=22.1.2
   - pip:
-      # Define pip packages here.
-      # https://pypi.org/
+      # Define pip packages here -> https://pypi.org/
       - rpaframework==15.6.0 # https://rpaframework.org/releasenotes.html
