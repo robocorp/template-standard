@@ -1,4 +1,4 @@
-# Template: Standard Robot Framework
+# Template: Robot Framework - Minimal
 
 This is the simplest template to start from.
 
