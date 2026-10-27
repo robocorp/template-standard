@@ -7,7 +7,7 @@ channels:
 
 dependencies:
   - python=3.12.8                   # https://pyreadiness.org/3.10
-  - pip=24.3.1                      # https://pip.pypa.io/en/stable/news
+  - pip=26.2.2                      # https://pip.pypa.io/en/stable/news
   - robocorp-truststore=0.8.0       # https://pypi.org/project/robocorp-truststore/
   - pip:
     - rpaframework==29.0.0          # https://rpaframework.org/releasenotes.html
